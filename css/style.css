@@ -791,15 +791,21 @@ header__item:last-child {
     grid-template-columns: repeat(1, 1fr);
   }
   .top__cards {
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    grid-column-gap: 25px;
+    grid-row-gap: 55px;
   }
   .top__card {
     grid-column: span 3;
   }
+  .top__card-pic {
+    margin-bottom: 25px;
+  }
+  .footer {
+    padding: 60px 0;
+  }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
   .header__burger {
     display: block;
   }
@@ -851,6 +857,9 @@ header__item:last-child {
   }
   .header__nav-close-line:last-child {
     transform: translateY(-50%) rotate(-45deg);
+  }
+  .benefists__cards {
+    grid-column: span 3;
   }
 }
 
